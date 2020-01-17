@@ -16,7 +16,6 @@
 
 This Starter Kit Template can be the foundation of a TypeScript Node.js Microservice or Backend for Frontend.
 
-
 ## Features
 
 The starter kit provides the following features:
@@ -45,9 +44,9 @@ npm run build
 npm run start
 ```
 
-### Deploying 
+### Deploying
 
-Make sure you are logged into the IBM Cloud using the IBM Cloud CLI and have access 
+Make sure you are logged into the IBM Cloud using the IBM Cloud CLI and have access
 to your development cluster.
 
 ```$bash
@@ -58,9 +57,10 @@ kubectl get nodes
 
 ```
 
-Use the IBM Garage for Cloud CLI to register the GIT Repo with Jenkins environment 
+Use the IBM Garage for Cloud CLI to register the GIT Repo with Jenkins environment
+
 ```$bash
-igc pipeline -n dev
+igc pipeline -n dev-jmt
 ```
 
 ## More Details
@@ -69,13 +69,10 @@ For more details on how to use this Starter Kit Template please review the [IBM 
 
 ## Next Steps
 
-* Learn more about augmenting your Node.js applications on IBM Cloud with the [Node Programming Guide](https://cloud.ibm.com/docs/node?topic=nodejs-getting-started).
+- Learn more about augmenting your Node.js applications on IBM Cloud with the [Node Programming Guide](https://cloud.ibm.com/docs/node?topic=nodejs-getting-started).
 
 ## License
 
 This sample application is licensed under the Apache License, Version 2. Separate third-party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1](https://developercertificate.org/) and the [Apache License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
 [Apache License FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
-
-
-
